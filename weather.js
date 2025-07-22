@@ -3,7 +3,7 @@ const rl = readline.createInterface({
     input:process.stdin,
     output:process.stdout
 })
-const API_KEY = "9b044e83e6708319823024d39416efd8";
+const API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 const BASE_URL = `https://api.openweathermap.org/data/2.5/weather`;
 
 const getweather = async (city)=>{
